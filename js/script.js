@@ -25,21 +25,36 @@
 
 // Задание 1
 
-let money = prompt('Ваш бюджет?');
-let name = prompt('Название вашего магазина?');
+// let money = prompt('Ваш бюджет?');
+// let name = prompt('Название вашего магазина?');
 
-let mainList = {
-    budget: money,
-    shopName: name,
-    shopGoods: [],
-    employers: {},
-    open: false
-}
+// let mainList = {
+//     budget: money,
+//     shopName: name,
+//     shopGoods: [],
+//     employers: {},
+//     open: false
+// }
 
-mainList.shopGoods[0] = prompt('Какой тип товаров будем продавать?');
-mainList.shopGoods[1] = prompt('Какой тип товаров будем продавать?');
-mainList.shopGoods[2] = prompt('Какой тип товаров будем продавать?');
+// mainList.shopGoods[0] = prompt('Какой тип товаров будем продавать?');
+// mainList.shopGoods[1] = prompt('Какой тип товаров будем продавать?');
+// mainList.shopGoods[2] = prompt('Какой тип товаров будем продавать?');
 
-alert(mainList.budget / 30);
+// alert(mainList.budget / 30);
 
-console.log(mainList)
+// console.log(mainList)
+
+// Задание 2
+
+// let num = 50;
+
+// while (num < 55) {
+//     console.log(num);
+//     num++;
+    
+// } Вопрос : почему меняя строчку console.log выводится разное значение
+
+// let x = 10,
+//     y = 7;
+//     x = y;
+//     console.log(x)
